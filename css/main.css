@@ -13,12 +13,10 @@ font-family: 'Source Sans Pro' sans-serif;
 					/***** GRID *****/
 
 .full-width {
-	width: 1200px;
-	margin: 0 auto;
+	margin: inherit;
 }
 
 .half-width {
-	width: 600px;
 	margin: 0 auto;
 	float: left;
 }
@@ -33,20 +31,23 @@ font-family: 'Source Sans Pro' sans-serif;
 
 header {
 	height: 800px;
-	background-image: url(../img/hero.png);
+	background-image: url("https://static.pexels.com/photos/196658/pexels-photo-196658.jpeg");
+	background-repeat: no-repeat;
 	background-size: cover;
+	width:100%;
 }
 
 header h1 {
 	padding: 50px 0;
 	font-family: 'Lora', serif;
-	color: #bbc085;
-	font-size: 30px;
+	color: ivory;
+	font-size: 100px;
+	margin:0
 }
 
 nav {
 	float: right;
-	padding: 75px 40px;
+	padding: 25px 5px;
 }
 
 nav ul li {
@@ -56,8 +57,8 @@ nav ul li {
 nav ul li a {
 	text-transform: uppercase;
 	text-decoration: underline;
-	font-size: 18px;
-	color: #828282;
+	font-size: 36px;
+	color: antiquewhite;
 	padding-left: 80px;
 }
 
@@ -65,14 +66,15 @@ header h2 {
 	width: 1200px;
 	clear: both;
 	font-family: 'Lora', serif;
-	font-size: 72px;
+	font-size: 48px;
 	line-height: auto;
-	color: #9b9b9b;
+	color: floralwhite;
 	padding: 20px 0;
 }
 
 header h2 span {
-	color:#2b2b2b;
+	color:peachpuff;
+	font-size:72px;
 }
 
 					/*****ABOUT*****/
@@ -84,19 +86,21 @@ header h2 span {
 #about h2 {
 	font-family: 'Lora', serif;
 	font-size: 36px;
+	text-align: center;
 }
 
 #about p{
 	font-size: 21px;
 	color: #7F7F7F;
 	line-height: 40px;
-	padding-right: 50px;
+	padding-left: 40px;
 }
 
 					/*****WORK*****/
 #work {
 	background-color: #F9CEB7;
 	text-align: center;
+	width: 100%;
 }
 
 #work .full-width {
@@ -128,10 +132,12 @@ background-color: #ebebeb;
 
 #contact .full-width {
 	padding: 110px 0;
+	margin-left:400px;
 }
 
 #contact-img {
-	border: 12px solid white;
+	border: 24px groove #F9CEB7;
+	width:200px;
 }
 
 #contact h2, #email-header, #socialmedia-header, #contact ul {
@@ -159,6 +165,10 @@ background-color: #ebebeb;
 	margin: 40px 0 0 0;
 }
 
+#contact{
+	width:100%;
+}
+
 #contact a {
 	text-decoration:none;
 	color: #c49075;
@@ -175,11 +185,17 @@ background-color: #ebebeb;
 }
 
 #contact ul img {
-	padding-right: 48px;
+	padding-left:100px;
 }
 	
-	
-
+/*======================Tablet/Desktop Styles======================
+@media screen and (min-width: 768px) {
+	header {
+		height: 800px;
+		background-image: url(../img/hero.png);
+		background-size: cover;
+	}
+	*/
 
 	
 

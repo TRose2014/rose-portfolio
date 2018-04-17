@@ -10,10 +10,10 @@ font-family: 'Source Sans Pro' sans-serif;
 	height: 600px;
 }
 
-					/***** GRID *****/
+					/***** Layout *****/
 
 .full-width {
-	margin: inherit;
+	padding-top: 10%;
 }
 
 .half-width {
@@ -22,9 +22,19 @@ font-family: 'Source Sans Pro' sans-serif;
 }
 
 .third-width {
-	width: 400px;
+	width: 33.3%;
 	margin: 0 auto;
 	float: left;
+}
+
+
+			/***********Nav Bar **************/
+
+
+
+#nav{
+	padding-top: 3%;
+	padding-right: 3%;
 }
 
 					/*****HEADER*****/
@@ -58,7 +68,7 @@ nav ul li a {
 	text-transform: uppercase;
 	text-decoration: underline;
 	font-size: 36px;
-	color: antiquewhite;
+	color: peachpuff;
 	padding-left: 80px;
 }
 
